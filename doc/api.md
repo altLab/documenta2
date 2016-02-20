@@ -20,9 +20,10 @@ empty
 
 ### Response
 
-Status | Reason | Body
-200    | successful request | resource data
-404    | resource not found | empty
+| Status | Reason             | Body          |
+-----------------------------------------------
+| 200    | successful request | resource data |
+| 404    | resource not found | empty         |
 
 Creating a new resource
 -----------------------
@@ -37,9 +38,10 @@ data
 
 ### Response
 
-Status | Reason                      | Body
-201    | New resource created        | URL of new resource
-404    | Path to resource is invalid | empty
+| Status | Reason                      | Body                |
+--------------------------------------------------------------
+| 201    | New resource created        | URL of new resource |
+| 404    | Path to resource is invalid | empty               |
 
 Updating an existing resource
 -----------------------------
@@ -54,9 +56,10 @@ Resource data
 
 ### Response
 
-Status | Reason                        | Body
-204    | Resource updated              | empty
-404    | Path to resource is invalid   | empty
+| Status | Reason                        | Body  | 
+--------------------------------------------------
+| 204    | Resource updated              | empty | 
+| 404    | Path to resource is invalid   | empty |
 
 Deleting an existing resource
 -----------------------------
@@ -71,6 +74,7 @@ empty
 
 ### Response
 
-Status | Reason                      | Body
-200    | Resource has been deleted   | empty
-404    | Path to resource is invalid | empty
+| Status | Reason                      | Body  |
+------------------------------------------------
+| 200    | Resource has been deleted   | empty |
+| 404    | Path to resource is invalid | empty |
