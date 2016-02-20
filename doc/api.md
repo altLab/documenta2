@@ -3,16 +3,16 @@
 Request path elements
 ---------------------
 
-<namespace>
+\<namespace\>
 
-<resource_path>
+\<resource_path\>
 
 Accessing an existing resource
 ------------------------------
 
 ### Request
 
-GET /api/<namespace>/<resource_path>
+GET /api/\<namespace\>/\<resource_path\>
 
 ### Request body
 
@@ -30,7 +30,7 @@ Creating a new resource
 
 ### Request:
 
-POST /api/<namespace>/<resource_path>
+POST /api/\<namespace\>/\<resource_path\>
 
 ### Request body:
 
@@ -48,7 +48,7 @@ Updating an existing resource
 
 ### Request
 
-PUT /api/<namespace>/<resource_path>
+PUT /api/\<namespace\>/\<resource_path\>
 
 ### Request body
 
@@ -66,7 +66,7 @@ Deleting an existing resource
 
 ### Request
 
-DELETE /api/<namespace>/<resource_path>
+DELETE /api/\<namespace\>/\<resource_path\>
 
 ### Request body
 
